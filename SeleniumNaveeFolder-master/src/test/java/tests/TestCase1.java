@@ -11,7 +11,7 @@ public class TestCase1 extends BaseClass {
 	public void Test()
 	{
 		driver.get("https://google.com");
-		driver.findElement(By.name("q")).sendKeys("Hello and welcome to test automation");
+		driver.findElement(By.name("q")).sendKeys("Hello and welcome to test automation. My name is GM");
 	}
 
 }
